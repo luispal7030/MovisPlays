@@ -1,0 +1,78 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    position: relative;
+}
+#contentReserver{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 90vw;
+    height: 90%;
+    margin: 2% 0;
+    left: 0;
+    border: 1px solid #044b8b;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-right: 8px solid #044b8b;
+    border-left: 0;
+    padding: 8px;
+}
+
+.seating {
+    width: 400px;
+    padding: 35px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . . . . ."
+        ". . . . . . "
+        ". . . . . ."
+        ". . . . . ."
+        ". . . . . .";
+
+    /* Center the items horizontally and vertically */
+    justify-items: center;
+    align-items: center;
+}
+
+
+.resumen{
+    width: 350px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Reserva{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Reserva h2{
+    width: 100%;
+    background: #044b8b;
+    color: white;
+    height: 35px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    border: 1px solid #044b8b;
+    border-radius: 5px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
