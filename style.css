@@ -154,6 +154,7 @@ hr {
     border-radius: Spx;
     z-index: 1000;
     display: none;
+    cursor: pointer;
 }
 
 .box-1:nth-child(1),
